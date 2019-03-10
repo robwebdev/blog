@@ -2,7 +2,7 @@
 
 Service worker rendering (SWR) is an approach I adopted when building a [Hacker News PWA](https://github.com/robwebdev/inclusive-hnpwa).
 
-SWR encourages full page reloads that are progressively enhanced by a service worker. A fetch event handler intercepts navigation requests and renders the response in the service worker. I'm calling this **Service Worker Rendering**. SWR should be used on top of server side rendering and can be used instead or as well as client side routing. It is another layer to consider when applying progressive enhancement.
+SWR encourages full page reloads that are progressively enhanced by a service worker. A fetch event handler intercepts navigation requests and renders the response in the service worker. SWR should be used on top of server side rendering and can be used instead or as well as client side routing. It is another layer to consider when applying progressive enhancement.
 
 ## Overview
 
