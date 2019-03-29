@@ -1,10 +1,10 @@
 # Client side routing - the trade-offs
 
-Client-side routing is more popular than ever, but the down sides are rarely talked about.
+Client-side routing is more popular than ever, but the down sides are rarely talked about. If not done right there can be usability and accessibility drawbacks.
 
-## Client-side routing for 'free'
+## Client-side routing for ‘free’
 
-Client-side routing has been a feature of single page app frameworks like Ember or Angular for some time. These frameworks are targeting ambitious web _applications_ that go beyond the functionality of a web _page_. There is a newer type of framework that is targeting (but not limited to) [content focused web sites](https://www.gatsbyjs.org/showcase/) like [blogs, marketing pages and e-commerce sites](https://nextjs.org/showcase/). [Gatsby](https://www.gatsbyjs.org/docs/gatsby-link/) and [Next](https://github.com/zeit/next.js/#routing) are popular examples of this type of framework and they both provide client-side routing out of the box. So it appears that the popular opinion at the moment is that client-side routing is the right choice no matter what the type of web site you are building. But is this really the case? Frameworks including client side routing out of the box can make it feel like it comes for 'free', but surely there must be a cost? In this article, I am going to pay special attention to some browser behaviours that can be affected by client-side routing.
+Client-side routing has been a feature of single page app frameworks like Ember or Angular for some time. These frameworks are targeting ambitious web _applications_ that go beyond the functionality of a web _page_. There is a newer type of framework that is targeting (but not limited to) [content focused web sites](https://www.gatsbyjs.org/showcase/) like [blogs, marketing pages and e-commerce sites](https://nextjs.org/showcase/). [Gatsby](https://www.gatsbyjs.org/docs/gatsby-link/) and [Next](https://github.com/zeit/next.js/#routing) are popular examples of this type of framework and they both provide client-side routing out of the box. So it appears that the popular opinion at the moment is that client-side routing is the right choice no matter what the type of web site you are building. But is this really the case? Frameworks including client side routing out of the box can make it feel like it comes for ‘free’, but surely there must be a cost? In this article, I am going to pay special attention to some browser behaviours that can be affected by client-side routing.
 
 ## Loading states
 
@@ -23,5 +23,6 @@ Assistive technology can also hook into the default browser behaviour and announ
 ## Page titles
 
 ## Focus management
+[Focus management](https://www.smashingmagazine.com/2015/05/client-rendered-accessibility/#focus-management) is one topic that I have been following recently...
 
 ## Scroll position
